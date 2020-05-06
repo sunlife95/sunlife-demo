@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: register-server-1
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.100.143:8848
+      config:
+          file-extension: yml
+          prefix: shadow
+          server-addr: 192.168.100.143:8848
